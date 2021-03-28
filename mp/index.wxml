@@ -1,0 +1,14 @@
+<wux-notification id="wux-notification" />
+<view class="page">
+  <view class="page__bd">
+    
+    <wux-white-space />
+    <wux-grids bordered="{{ false }}">
+      <wux-grid thumb="https://home.yoyolife.fun/static/on.png" label="开/关" bind:click="click" id="1" />
+      <wux-grid thumb="https://home.yoyolife.fun/static/change.png" label="模式" bind:click="click" id="2" />
+      <wux-grid thumb="https://home.yoyolife.fun/static/turnligth.png" label="变亮" bind:click="click" id="3" />
+      <wux-grid thumb="https://home.yoyolife.fun/static/turndark.png" label="变暗" bind:click="click" id="4" />
+    </wux-grids>
+    
+  </view>
+</view>
